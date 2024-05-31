@@ -22,3 +22,17 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
+.josefin-sans-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .josefin-sans-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
