@@ -76,3 +76,13 @@ body {
 .headers {
     color: var(--light);
 }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-top: 20px;
+    
+}
