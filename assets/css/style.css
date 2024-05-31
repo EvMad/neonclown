@@ -50,3 +50,29 @@ body {
     max-width: 60vw;
     border-radius: 7px;
 }
+
+.menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu > h2 {
+    padding: 10px;
+    border-bottom: 2px solid;
+    border-color: var(--green);
+}
+
+
+.menu-item {
+    padding: 10px;
+}
+
+.price {
+    font-weight: 300;
+    color: var(--green);
+}
+
+.headers {
+    color: var(--light);
+}
