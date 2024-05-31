@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --accent: #F27830;
+    --green: #658C5A;
+    --light: #F2D3AC;
+    --dark: #26170F;
+    --grey: #9EA09B;
+}
+
+body {
+    background-color: var(--light);
+}
