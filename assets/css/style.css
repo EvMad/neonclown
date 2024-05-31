@@ -36,3 +36,17 @@ body {
     font-weight: 300;
     font-style: normal;
   }
+
+  .feature {
+    font-weight: 400;
+    margin-top: 10px;
+    padding-top: 20px;
+    
+}
+
+.feature > img {
+    /* max-height: calc(100vh - 50px); */
+    max-height: 50vh;
+    max-width: 60vw;
+    border-radius: 7px;
+}
