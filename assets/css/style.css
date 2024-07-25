@@ -30,7 +30,7 @@ body {
 .logo > h1 {
     padding-bottom: 5px;
     border-bottom: 2px solid;
-    border-color: var(--red);
+    border-color: var(--accent);
 
 }
 
