@@ -3,10 +3,10 @@
 }
 
 :root {
-    --accent: #F27830;
-    --green: #658C5A;
-    --light: #F2D3AC;
-    --dark: #26170F;
+    --accent: #F2B90F;
+    --red: #F22233;
+    --light: #ffffff;
+    --dark: #400101;
     --grey: #9EA09B;
 }
 
@@ -30,7 +30,7 @@ body {
 .logo > h1 {
     padding-bottom: 5px;
     border-bottom: 2px solid;
-    border-color: var(--green);
+    border-color: var(--red);
 
 }
 
@@ -75,7 +75,7 @@ p {
 .menu > h2 {
     padding: 10px;
     border-bottom: 2px solid;
-    border-color: var(--green);
+    border-color: var(--red);
 }
 
 
@@ -85,7 +85,7 @@ p {
 
 .price {
     font-weight: 300;
-    color: var(--green);
+    color: var(--red);
 }
 
 .headers {
