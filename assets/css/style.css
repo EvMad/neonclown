@@ -4,7 +4,7 @@
 
 :root {
     --accent: #F2A341;
-    --red: #8CBF3F;
+    --main: #8CBF3F;
     --light: #ffffff;
     --dark: #0D0D0D;
     --grey: #9EA09B;
@@ -75,7 +75,7 @@ p {
 .menu > h2 {
     padding: 10px;
     border-bottom: 2px solid;
-    border-color: var(--red);
+    border-color: var(--main);
 }
 
 
@@ -85,7 +85,7 @@ p {
 
 .price {
     font-weight: 300;
-    color: var(--red);
+    color: var(--main);
 }
 
 .headers {
