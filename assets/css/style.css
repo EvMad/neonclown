@@ -109,12 +109,12 @@ p {
 .topIcon {
     font-size: 40px;
     padding: 30px;
-    color: var(--dark);
+    color: var(--accent);
     cursor: pointer;
 }
 
 .topIcon:hover {
-    color: var(--accent);
+    color: var(--dark);
 }
 
 button {
