@@ -126,6 +126,7 @@ button {
     box-shadow: var(--grey);
     /* position: absolute; */
     cursor: pointer;
+    text-align: center;
 }
 
 button:hover {
