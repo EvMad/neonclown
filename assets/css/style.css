@@ -99,11 +99,17 @@ p {
     font-weight: 400;
     margin-top: 10px;
     padding-top: 20px;
+   
     
 }
 
-.topIcon {
+#copy {
+    font-weight: 400;
     font-size: 30px;
+}
+
+.topIcon {
+    font-size: 40px;
     padding: 30px;
     color: var(--dark);
     cursor: pointer;
@@ -113,6 +119,22 @@ p {
     color: var(--accent);
 }
 
+button {
+    width: 70px;
+    height: 50px;
+    background-color: var(--main);
+    color: var(--dark);
+    border-radius: 10px;
+    box-shadow: var(--grey);
+    /* position: absolute; */
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--light);
+}
+
+
 
 @media only screen and (max-width: 500px) {
     .icons {
@@ -120,7 +142,7 @@ p {
     }
     .topIcon {
         padding: 10px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
  

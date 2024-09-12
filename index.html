@@ -37,7 +37,8 @@
             <br/>
             <p class="josefin-sans-text">1248 N. Front Street | Philadelphia, PA | 19125</p>
             <p class="josefin-sans-text">Fri & Sat 6pm-2am</p>
-            <p class="josefin-sans-text">For private rental info, contact: neonclownbar at gmail dot com</p>
+        
+
             
         </div>
         <!--header div end-->
@@ -184,9 +185,21 @@
         </div>
         <!--menu begin end-->
 
+        <!--email section begin-->
+        <div class="menu">
+            <h2 class="josefin-sans-heading">Contact Us:</h2>
+         <br/>
+        </div>
+        <div class="logo">
+            <p class="josefin-sans-text">Click to copy our email address:</p>
+            <p><button class="josefin-sans-text" onclick="copyText()" id="copy"><i class="fa-regular fa-clipboard"></i></button></p>
+        </div>
+        <!--email section end-->
+
         
 
          <!--hidden header tags div begin-->
+         
          <div class="headers">
             <h1>Neon Clown Dream Lounge Bar</h1>
             <h2>Cocktail Lounge in Fishtown Philadelphia</h2>
@@ -196,5 +209,14 @@
 
 
     </div>
+
+    <script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("neonclownbar@gmail.com");
+        }
+    </script>
 </body>
 </html>
